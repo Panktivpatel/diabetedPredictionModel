@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes Prediction App</title>
+    <style>
+        body{
+            background-image: linear-gradient(34deg, #b7094c, #a01a58, #892b64, #723c70, #5c4d7d, #455e89, #2e6f95, #1780a1, #0091ad);
+            color: white;
+            background-attachment:fixed;
+        }
+        input[type=submit]{
+            background-color:#708d81;
+            border:2px;
+            padding:13px 22px;
+            cursor:pointer;
+            margin-top:15px;
+        }
+        div{
+            position:fixed;
+            top:180px;
+            left:330px;
+            width: 550px;
+            background-color: rgba(0, 0, 0, .15);
+            backdrop-filter: blur(5px);
+            border-radius:10px;
+            align-items:center;
+            padding:5%;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <h1>Welcome and Predict whether you have diabetes or not?</h1>
+        <form action="predict">
+            <input type="submit" value="Let's Get Started">
+        </form>
+    </div>
+</body>
+</html>

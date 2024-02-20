@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Let's Predict</title>
+    <style>
+        body{
+            background-image: linear-gradient(34deg, #b7094c, #a01a58, #892b64, #723c70, #5c4d7d, #455e89, #2e6f95, #1780a1, #0091ad);
+            color: white;
+            background-attachment:fixed;
+        }
+        .main{
+            position:fixed;
+            top:35px;
+            left:330px;
+            width: 550px;
+            background-color: rgba(0, 0, 0, .15);
+            backdrop-filter: blur(5px);
+            border-radius:10px;
+            align-items:center;
+            padding:5%;
+        }
+        h1{
+            font-size:30px;
+            font-weight:bold;
+        }
+        input[type=submit]{
+            background-color:#708d81;
+            border:2px;
+            padding:8px 16px;
+            cursor:pointer;
+            margin-top:15px;
+        }
+        input[type=text]{
+            border: none;
+            outline: none;
+            background: none;
+            width: 50%;
+            border-bottom: 2px solid white;
+            padding-top:20px;
+        }
+        input::placeholder {
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+  <div align="center" class="main">
+      <h1>Enter the mentioned information</h1>
+      <form action="result">
+          <input type="text" name="n1" placeholder="Pregnancies"><br>
+          <input type="text" name="n2" placeholder="Glucose"><br>
+          <input type="text" name="n3" placeholder="Blood Pressure"><br>
+          <input type="text" name="n4" placeholder="Skin Thickness"><br>
+          <input type="text" name="n5" placeholder="Insulin"><br>
+          <input type="text" name="n6" placeholder="BMI"><br>
+          <input type="text" name="n7" placeholder="Diabetes Pedigree Function"><br>
+          <input type="text" name="n8" placeholder="Age"><br>
+          <input type="submit">
+      </form><br>
+      Result: {{result2}}
+  </div>
+</body>
+</html>

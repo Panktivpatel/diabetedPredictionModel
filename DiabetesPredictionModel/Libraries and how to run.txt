@@ -1,0 +1,19 @@
+Libraries neccessary to run the app
+Pandas: 1.2.4
+NumPy: 1.20.3
+sklearn: 0.24.2
+Seaborn: 0.11.1
+Django: 3.2.3
+matplotlib.pyplot: 3.4.2
+pathlib: 2.3.5
+os
+sys
+
+1) Extract the files open the folder in pycharm or vs code.
+2) Then, open the terminal and jump to this path using "cd" command in terminal ..\DiabetesPredictionModel\diabetesPredictionModel
+3) Now, write "python manage.py runserver"
+4) A web page will be opened and that's solve
+ 
+Note: Makesure that the csv file is placed at a coorect path as mentioned in views.py or set accorgingly
+
+Note: Videos have been added directly in the ppt.
